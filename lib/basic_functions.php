@@ -14,6 +14,12 @@ require_once(__DIR__.'/cookies.php');
 // DB Stuff
 $db = new \Mysqlidb(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
+// Init template stuff
+$loader = new \Twig_Loader_Filesystem(TEMPLATES_ROOT);
+$twig = new \Twig_Environment($loader, [
+    'cache' => COMPILED_TPL,
+]);
+
 // CURL DL'r
 function curlDl($path) {
 	$ch = \curl_init();

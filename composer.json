@@ -4,6 +4,8 @@
     },
     "require": {
         "defuse/php-encryption": "^2.0",
-        "wp-cli/php-cli-tools": "^0.11.1"
+        "wp-cli/php-cli-tools": "^0.11.1",
+        "twig/twig": "~1.0",
+        "hashids/hashids": "^1.0"
     }
 }
