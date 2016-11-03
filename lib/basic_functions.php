@@ -1,8 +1,13 @@
 <?php
 if (!defined('3DS_DEPOT')) die('Private area.');
 
+// Stop if the config file doesn't exist
+if (\file_exists(__DIR__.'/../tdlg.php')) {
+	require_once(__DIR__.'/../config/tdlg.php');
+} else die('Site not configured.');
+
+// Load our required files
 require_once(__DIR__.'/vendor/autoload.php');
-require_once(__DIR__.'/../config/tdlg.php');
 require_once(__DIR__.'/mysql.php');
 require_once(__DIR__.'/cookies.php');
 
