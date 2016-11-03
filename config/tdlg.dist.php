@@ -9,3 +9,11 @@ define('DB_NAME', '3ds_depot');
 
 // Define secure constants
 define('COOKIE_PRIV', "");
+
+// Define folder paths
+define('SITE_ROOT', '');
+define('TEMPLATES_ROOT', '')
+
+// Define URL config
+define('HTTP_SITE', '3ds-depot.dev');
+define('FORCE_HTTPS', true); // Set this to false if you terminate SSL early.
