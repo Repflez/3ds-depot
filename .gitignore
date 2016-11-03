@@ -6,3 +6,6 @@
 
 # Ignore the compiled_tpl folder for windows
 /compiled_tpl
+
+# Ignore Apache .htacess
+/.htaccess
