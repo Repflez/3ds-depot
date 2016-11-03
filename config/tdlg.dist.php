@@ -12,7 +12,8 @@ define('COOKIE_PRIV', "");
 
 // Define folder paths
 define('SITE_ROOT', '');
-define('TEMPLATES_ROOT', SITE_ROOT . '\templates');
+define('TEMPLATES_ROOT', SITE_ROOT . '/templates');
+define('COMPILED_TPL', '/tmp/compiled_tpl');
 
 // Define URL config
 define('HTTP_SITE', '3ds-depot.dev');

@@ -3,3 +3,6 @@
 
 # Config
 /config/tdlg.php
+
+# Ignore the compiled_tpl folder for windows
+/compiled_tpl
