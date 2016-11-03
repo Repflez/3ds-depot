@@ -5,7 +5,7 @@ comming soon! | [dev chat](https://discord.gg/HDcMeTB)
 
 # Why?
 
-I was interested in doing this since [http://gbatemp.net/threads/idea-save-data-server-upload-saves-to-share-download-to-enjoy.443183/](this thread.) Said fuck it, and I'm doing it. Slowly but doing it.
+I was interested in doing this since [this thread.](http://gbatemp.net/threads/idea-save-data-server-upload-saves-to-share-download-to-enjoy.443183/) Said fuck it, and I'm doing it. Slowly but doing it.
 
 I plan to add more stuff other than a save server, like a mini theme repository with no content restrictions but the ones that my server host defines.
 
