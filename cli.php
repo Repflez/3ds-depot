@@ -29,7 +29,7 @@ while (true) {
 	if ($choice == 'quit') break;
 	else {
 		if(function_exists($choice)) {
-			call_user_func($choice);
+			\call_user_func($choice);
 		} else \cli\err('Function does not exist.');
 	}
 }
