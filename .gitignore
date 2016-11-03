@@ -1,0 +1,5 @@
+# Composer
+/lib/vendor
+
+# Config
+/config/tdlg.php
